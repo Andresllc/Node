@@ -1,6 +1,6 @@
 const readline = require('readline');
 const fs = require('fs');
-
+const { isAsyncFunction } = require('util/types');
 
 let objeto = { name: " ", surname: " ", age: 0 };
 
