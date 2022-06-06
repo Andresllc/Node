@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 let objeto = { name: "Alba", surname: "De la Rosa", age: 21 };
-let stringObjeto = JSON.stringify(objeto);
+let Object = JSON.stringify(objeto);
 
 
-fs.writeFile("objeto.json", stringObjeto, (err) => 
+fs.writeFile("object.json", Object, (err) => 
 {
     if (err)
     {
@@ -14,7 +14,7 @@ fs.writeFile("objeto.json", stringObjeto, (err) =>
     {  
         console.log("File written succesfully")
     }
-    fs.readFile("objeto.json","utf8", (err) => 
+    fs.readFile("object.json","utf8", (err) => 
     {
         if(err) 
         {

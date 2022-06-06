@@ -1,7 +1,7 @@
-let writeAndReadObject = require("./writeAndReadObject")
-let readConsole = require("./readConsole")
+let WriteAndReadObject = require("./WriteAndReadObject")
+let ReadConsole = require("./ReadConsole")
 
 // writeAndReadObject.writeAndRead(objeto);
-readConsole.readConsole(function(objeto){
-    writeAndReadObject.writeAndRead("objeto.json",objeto)
+ReadConsole.ReadConsole(function(objeto){
+    WriteAndReadObject.WriteAndRead("objeto.json",objeto)
 });
